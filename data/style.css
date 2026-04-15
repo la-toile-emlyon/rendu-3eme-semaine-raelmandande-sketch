@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+}
+.container{
+    margin: auto;
+    border: black solid 1px;
+}
+.logo{
+    width: 80pxX;
+    height: 65PX;
+}
+h1{
+    place-self: anchor-center;
+    color: #FF5B14;
+    font-size: 69px;
+}
+p{
+    font-size: 23px;
+}
+.hero{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 20px;
+
+}
+nav a{
+color: rgb(87, 77, 77);
+ font-family: popping;
+ font-style: normal;
+ font-size: 15px;
+ }
+ .btn1{
+    background-color:#FF5B14 ;
+    color: white;
+     width: 30pxPX;
+    height: 50px;
+    border-radius: 8PX;
+ }
+.btn2{
+    background-color:white ;
+    color: #FF5B14;
+    justify-content: flex-end;
+    width: 30pxPX;
+    height: 50px;
+    border-radius: 8PX;
+}
+.texte{
+    display: flex;
+}
+.img1{
+    height: 400px;
+    width: 500px;
+    display: flex; 
+
+}
+.titre{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.tt{
+    display: flex;
+    flex-direction: column;
+}
+.img2{
+     height: 600px;
+    width: 800px;
+    display: flex; 
+
+}
+.card{
+     padding: 10px;
+    display: flex;
+      gap: 20px;
+    align-items: center;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+main{
+    background-color: whitesmoke;
+}
+.img3{
+     height: 150px;
+    width: 300px;
+    display: flex; 
+}
+.para2{
+    font-size: 12px;
+}
+h3{
+    font-size: 44px;
+    text-align: center;
+}
+h4{
+    font-size:22px ;
+}
+.grandcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.p1{
+     padding: 5px;
+    display: flex;
+     gap: 20px;
+    align-items: center;
+    
+
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+}
+.p2{
+      padding: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+.para3{
+    font-size: 15px;
+}
+.j1{
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+}
+.j1 ul{
+  list-style-type: none;
+}
+
+.img4{
+      height: 300px;
+    width: 450px;
+    display: flex; 
+}
+
+.gu{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.btn3{
+    background-color: black;
+    color: white;
+}
+
+
+.bt{
+    display: flex;
+     padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.m1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.m2{
+ flex-direction: column;
+    display: flex;
+    align-items: center;
+}
