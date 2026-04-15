@@ -40,20 +40,29 @@ color: rgb(87, 77, 77);
  }
  .btn1{
     background-color:#FF5B14 ;
-    color: white;
+    color: whitesmoke;
      width: 150px;
     height: 20px;
     border-radius: 8PX;
- }
+    text-align: center;
+    text-decoration: none;
+  
+}
+ 
 .btn2{
-    background-color:white ;
-    color: #FF5B14;
+    background-color:rgb(172, 172, 249);
+    color: white;
     justify-content: flex-end;
     width: 150px;
     height: 20px;
     border-radius: 8PX;
-
+    text-align: center;
+    text-decoration: none;
+     
+    
 }
+
+
 .texte{
     display: flex;
 }
@@ -92,7 +101,7 @@ h2{
     text-align: center;
 }
 main{
-    background-color: whitesmoke;
+    background-color: rgb(254, 243, 243);
 }
 .img3{
      height: 150px;
@@ -168,7 +177,14 @@ p{
 .btn3{
     background-color: black;
     color: white;
+    border-radius: 8PX;
+    text-align: center;
+    text-decoration: none;
+    height: 22px;
+    width: 80px;
+
 }
+
 
 
 .bt{
@@ -208,19 +224,24 @@ h6{
       flex-direction: column;
     display: flex;
     align-items: center;
+    padding: 150px;
     
 }
 .tem{
     gap: 20px;
     flex-direction: column;
     display: flex;
+    padding: 90px;
+
 }
 .pm{
     flex-direction: column;
     display: flex;
     gap: 20px;
+    padding:20px ;
 }
 .no{
+    padding: 30px;
     flex-direction: column;
     display: flex;
     gap: 20px;
@@ -229,14 +250,19 @@ h6{
     flex-direction: column;
     display: flex;
     gap: 20px;
+    padding: 45px;
 }
 .b{
-    background-color: black;
+    background-color: rgb(232, 32, 32);
     color: white;
      width: 150px;
     height: 20px;
     border-radius: 8PX;
+    text-align: center;
+    list-style-type: none;
+      text-decoration: none;
 }
+
 .f2{
     font-size: 12px;
 }
@@ -252,9 +278,7 @@ h6{
     margin: auto;
     border: black solid 1px;
 }
-.forme ul{
-    list-style-type: none;
-}
+
 .bn{
     background-color: black;
     color: white;
@@ -262,4 +286,11 @@ h6{
 form{
     display: flex;
     flex-direction: column;
+    width: 400PX;
+    height: 250px;
+    
+}
+.sub{
+    background-color: black;
+    color: white;
 }
