@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    margin: 0;
 }
 .container{
     margin: auto;
@@ -40,17 +41,18 @@ color: rgb(87, 77, 77);
  .btn1{
     background-color:#FF5B14 ;
     color: white;
-     width: 30pxPX;
-    height: 50px;
+     width: 150px;
+    height: 20px;
     border-radius: 8PX;
  }
 .btn2{
     background-color:white ;
     color: #FF5B14;
     justify-content: flex-end;
-    width: 30pxPX;
-    height: 50px;
+    width: 150px;
+    height: 20px;
     border-radius: 8PX;
+
 }
 .texte{
     display: flex;
@@ -68,8 +70,10 @@ color: rgb(87, 77, 77);
     justify-content: end;
 }
 .tt{
-    display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 .img2{
      height: 600px;
@@ -136,6 +140,8 @@ h5{
 }
 .j1{
     flex-direction: column;
+    display: flex;
+    gap: 20px;
 }
 
 p{
@@ -143,6 +149,7 @@ p{
 }
 .j1 ul{
   list-style-type: none;
+  font-size: 22px;
 }
 
 .img4{
@@ -155,6 +162,7 @@ p{
     flex-direction: column;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .btn3{
@@ -173,9 +181,85 @@ p{
     flex-direction: column;
     display: flex;
     align-items: center;
+        gap: 15px;
 }
 .m2{
  flex-direction: column;
     display: flex;
     align-items: center;
+        gap: 15px;
+}
+h6{
+     font-size: 26px;
+    text-align: center;
+}
+.te{
+      margin: auto;
+    border: black solid 1px;
+}
+.Temoignages{
+      display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.cmr{
+      flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+.tem{
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.pm{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.no{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.pr{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.b{
+    background-color: black;
+    color: white;
+     width: 150px;
+    height: 20px;
+    border-radius: 8PX;
+}
+.f2{
+    font-size: 12px;
+}
+.forme{
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgb(0, 0,0,0.1);
+    
+}
+.l{
+    margin: auto;
+    border: black solid 1px;
+}
+.forme ul{
+    list-style-type: none;
+}
+.bn{
+    background-color: black;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
